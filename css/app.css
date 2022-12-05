@@ -1,0 +1,94 @@
+body {
+  display: flex;
+  margin: 0;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+header {
+  background-color: #73aedb;
+  text-align: center;
+  color: #fcf064;
+  font-size: 3em;
+  height: 400px;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  color: lightblue;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+.ending-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ending-form input {
+  margin: 10px;
+  font-size: 1em;
+}
+
+.ending-form label {
+  font-weight: bold;
+}
+
+.ending-form input,
+label {
+  height: 40px;
+  width: 300px;
+}
+
+.btn {
+  color: whitesmoke;
+}
+
+.btn:hover {
+  color: whitesmoke;
+}
+
+.btn-yes {
+  background-color: #48b361;
+}
+
+.btn-yes:hover {
+  background-color: #5caa70;
+  /* color: whitesmoke; */
+}
+
+.btn-no {
+  background-color: #e92a3d;
+}
+
+.btn-no:hover {
+  background-color: #e65261;
+}
+
+.btn-add-guess {
+  background-color: #fd7e14;
+  width: 15em;
+}
+
+.btn-add-guess:hover {
+  background-color: #ff953d;
+}
+
+.btn-add-guess:active {
+  background-color: #ff953d !important;
+  color: whitesmoke !important;
+}
